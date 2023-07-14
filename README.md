@@ -22,6 +22,7 @@
 |-- README.md
 |-- requirements.txt
 |-- main.ipynb
+|-- predict.txt
 ```
 
 本实验使用了一个包含图像和文本数据的多模态数据集。数据集中的每个样本都包含一张图像和相应的文本描述，以及情感标签。数据集被分为训练集、验证集和测试集。其中，`dataset`文件夹存储了训练集和测试集的数据文件，`best_model.pt`保存了训练过程中的最佳模型参数，`README.md`为项目说明文件，`requirements.txt`列出了项目所需的依赖库，`main.ipynb`是代码的文件。
